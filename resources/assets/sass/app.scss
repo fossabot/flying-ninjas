@@ -1,0 +1,48 @@
+@import "sweetalert.css";
+@import "node_modules/materialize-css/sass/materialize.scss";
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 3em;
+  font-weight: 400;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field textarea.materialize-textarea:focus + label {
+  color: #1E88E5;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field textarea.materialize-textarea:focus {
+  border-bottom: 1px solid #1E88E5;
+  box-shadow: 0 1px 0 0 #1E88E5;
+}
+
+.input-field input[type=text].select-dropdown + ul li:not(.disabled) > span {
+  color: #1E88E5;
+}
+
+// Class for when element is above threshold
+.pin-top {
+  position: relative;
+}
+
+// Class for when element is below threshold
+.pin-bottom {
+  position: relative;
+}
+
+// Class for when element is pinned
+.pinned {
+  position: fixed !important;
+  z-index: 1000;
+}
+
+blockquote {
+  border-left: 5px solid #1E88E5;
+}

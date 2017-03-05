@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col l6 s12">
+            <h5 class="white-text">Footer Content</h5>
+            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+                <li class="{{ Request::path() == '/' ? 'active' : '' }}"><a href="{{ url('/') }}" class="grey-text text-lighten-3">Home</a></li>
+                <li class="{{ Request::path() == 'news' ? 'active' : '' }}"><a href="{{ url('news') }}" class="grey-text text-lighten-3">News</a></li>
+                <li class="{{ Request::path() == 'servers' ? 'active' : '' }}"><a href="{{ url('servers') }}" class="grey-text text-lighten-3">Game Servers</a></li>
+                <li class="{{ Request::path() == 'about' ? 'active' : '' }}"><a href="{{ url('about') }}" class="grey-text text-lighten-3">About us</a></li>
+                <li class="{{ Request::path() == 'contact' ? 'active' : '' }}"><a href="{{ url('contact') }}" class="grey-text text-lighten-3">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer-copyright">
+    <div class="container">
+        Copyright &copy; {{ date("Y") }} - Flying Ninjas
+    </div>
+</div>

@@ -6,7 +6,6 @@
     <meta name="description" content="Flying Ninjas BITCHES!">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Xerrion">
-
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>

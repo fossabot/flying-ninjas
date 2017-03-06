@@ -14,11 +14,6 @@ $('document').ready(function() {
     });
   });
 
-  /*$('#topMenu').pushpin({
-   top: 520,
-   offset: 0
-   });*/
-
   $('.parallax').parallax();
 
   $('#loginButton').click(function() {

@@ -7,13 +7,6 @@
     <meta name="robots" content="index, follow">
     <meta name="author" content="Xerrion">
 
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Finish Screencasts">
-    <meta property="og:site_name" content="Flying Ninjas">
-    <meta property="og:url" content="localhost">
-    <meta property="article:published_time" content="2017-02-22">
-    <meta property="article:author" content="Xerrion">
-
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>

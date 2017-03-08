@@ -11,7 +11,5 @@ const {mix} = require('laravel-mix');
  |
  */
 
-mix.babel('resources/assets/js/app.js', 'public/js').
-    sourceMaps().
-    sass('resources/assets/sass/app.scss', 'public/css').
-    sourceMaps();
+mix.js('resources/assets/js/app.js', 'public/js').extract(['vue', 'jquery','sweetalert', 'materialize-css', 'hammerjs']).sourceMaps().version();
+mix.sass('resources/assets/sass/app.scss', 'public/css').extract(['materialize-css', 'sweetalert','sweetaler']).sourceMaps().version();

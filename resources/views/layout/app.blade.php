@@ -6,8 +6,10 @@
     <meta name="description" content="Flying Ninjas BITCHES!">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Xerrion">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset(mix('css/app.css')) }}">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="{{ asset(mix('js/manifest.js')) }}"></script>
+    <script src="{{ asset(mix('js/vendor.js')) }}"></script>
 </head>
 <body>
 
@@ -30,6 +32,6 @@
     ]); ?>;
 
 </script>
-<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset(mix('js/app.js')) }}"></script>
 </body>
 </html>

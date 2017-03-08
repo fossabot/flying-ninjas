@@ -5,9 +5,9 @@
  */
 
 require('./bootstrap');
-require('./materialize');
-require('./sweetalert-dev');
-
+require('materialize-css/bin/materialize.js');
+require('sweetalert/dist/sweetalert-dev.js');
+require('./main');
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -20,4 +20,3 @@ const app = new Vue({
   el: '#app',
 });
 
-require('./main');
